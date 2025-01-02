@@ -1,0 +1,196 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #212121; /* Dark Grey/Black */
+            color: #e0e0e0; /* Light Grey */
+            margin: 0;
+            padding: 0;
+            background-image: 
+                radial-gradient(circle at 50% 50%, #ccff00 15%, transparent 16%),
+                linear-gradient(45deg, rgba(204, 255, 0, 0.3) 25%, transparent 25%),
+                linear-gradient(45deg, rgba(204, 255, 0, 0.3) 25%, transparent 25%);
+            background-size: 50px 50px, 50px 50px, 50px 50px;
+            background-position: 0 0, 0 0, 25px 25px;
+            background-attachment: fixed;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+        h1 {
+            font-size: 48px;
+            color: #e0e0e0; /* Grey */
+            margin-bottom: 40px;
+        }
+        .choice-container {
+            background: rgba(51, 51, 51, 0.8); /* Transparent dark grey */
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            width: 300px;
+            z-index: 2;
+        }
+        .choice-container h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #e0e0e0;
+        }
+        .choice-container button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #ccff00; /* Electric Lime */
+            color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .choice-container button:hover {
+            background-color: #b8e600; /* Darker Electric Lime */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Digimark Developers</h1>
+        <div class="choice-container">
+            <h2>Welcome</h2>
+            <p>Please choose an option:</p>
+            <button onclick="location.href='signup.html'">Sign Up</button>
+            <button onclick="location.href='login.html'">Log In</button>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+  -->
+
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background-color: #1a1a2e; /* Dark Blue */
+            color: #eaeaea; /* Soft White */
+            margin: 0;
+            padding: 0;
+            background-image: 
+                radial-gradient(circle, rgba(255, 255, 255, 0.1) 2%, transparent 2%),
+                linear-gradient(135deg, #1a1a2e 25%, #16213e 25%, #16213e 50%, #1a1a2e 50%, #1a1a2e 75%, #16213e 75%, #16213e 100%);
+            background-size: 10px 10px, 40px 40px;
+            background-attachment: fixed;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+        h1 {
+            font-size: 56px;
+            color: #ccff00; /* Bright Lime Green */
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+        }
+        .choice-container {
+            background: rgba(32, 32, 44, 0.9); /* Slightly Transparent Dark Background */
+            padding: 30px 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+            width: 350px;
+            animation: fadeIn 1s ease-in-out;
+        }
+        .choice-container h2 {
+            margin-bottom: 20px;
+            font-size: 28px;
+            color: #eaeaea;
+        }
+        .choice-container p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #c0c0c0;
+        }
+        .choice-container button {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            background-color: #ccff00; /* Bright Lime */
+            color: #1a1a2e; /* Dark Blue Text */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        .choice-container button:hover {
+            background-color: #b2db00; /* Slightly Darker Lime */
+            transform: scale(1.05);
+            box-shadow: 0 2px 10px rgba(204, 255, 0, 0.5);
+        }
+
+        /* Animation for subtle fade-in */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Add responsive styles */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 42px;
+            }
+            .choice-container {
+                width: 90%;
+                padding: 20px;
+            }
+            .choice-container button {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Digimark Developers</h1>
+        <div class="choice-container">
+            <h2>Welcome</h2>
+            <p>Please choose an option:</p>
+            <button onclick="location.href='signup.html'">Sign Up</button>
+            <button onclick="location.href='login.html'">Log In</button>
+        </div>
+    </div>
+</body>
+</html>
