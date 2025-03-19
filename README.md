@@ -7,6 +7,8 @@
 
 A complete user authentication system built with Flask for the backend API and HTML/CSS for the frontend interface. This project provides a professional solution for user registration, login, and session management.
 
+![Image](https://github.com/user-attachments/assets/67b4d136-b6b2-4d81-9e27-09d9d86a61aa)
+
 ## Features
 
 - User registration with username, email, and password
